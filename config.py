@@ -10,8 +10,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8474612092:AAGmEME_xW09qGuEU5zbHjz9DHaPo8o6-xE") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","ᴅɪᴀʙʟᴏ")     
-    DB_URL  = os.environ.get("DB_URL","mongodb")
+    DB_NAME = os.environ.get("DB_NAME","mongodb")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster")
     PORT = os.environ.get("PORT", "8080")
  
     # other configs
