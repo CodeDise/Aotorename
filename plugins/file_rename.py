@@ -169,8 +169,6 @@ async def auto_rename_files(client, message):
         return await message.reply_text("Unsupported file type")
 
     # NSFW check
-    if await check_anti_nsfw(file_name, message):
-        return await message.reply_text("NSFW content detected")
 
     # Prevent duplicate processing
     if file_id in renaming_operations:
